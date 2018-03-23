@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+*:focus {
+	outline: none;
+}
+
+body {
+  font-family: Arial;
+  background-color: beige;
+  line-height: 1.055;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+#flex {
+  margin-left: 50px;
+}
+.problem-description {
+  line-height: 2.5;
+  font-family: Oxygen;
+}
+.code-editor {
+  background-color: white;
+  margin-left: 50px;
+}
+
+.result-left {
+  margin:0px auto 0px auto;
+  padding-top: 10px;
+  background-color: white;
+}
+
+.result-left-links ul {
+  margin: 0;
+  padding-left: 0px;
+  vertical-align: middle;
+  font-size: 16px;
+  list-style: none;
+}
+
+.result-left-links h3 {
+  margin-left: 5px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.result-left-links a {
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.result-left-links a:hover {
+  text-decoration: none;
+}
+
+.result-left-links fa:hover {
+  text-decoration: none;
+  font-size: 120px;
+  color: black;
+}
+
+.result-left p {
+  padding: 10px;
+  margin-top: 20px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: whitesmoke;
+}
+
+.result {
+  margin: auto;
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-color: white;
+  margin-left: 20px;
+}
